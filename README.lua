@@ -7,7 +7,7 @@ while wait() do
         hwid = game:GetService("RbxAnalyticsService"):GetClientId()
         Payload = game:GetService("HttpService"):JSONEncode({key = _G.Key, hwid = hwid })
         response = request({
-            Url = "https://maseieie.herokuapp.com/kl/1",
+            Url = "https://maseieie.herokuapp.com/bf/1",
             Method = "POST",
             Headers = {
                 ["Content-Type"] = "application/json"
