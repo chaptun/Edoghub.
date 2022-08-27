@@ -1,1 +1,1 @@
- game.Players.LocalPlayer:Kick("รันติดไอเอ๋อ")
+ game.Players.LocalPlayer:Kick("รอแก้บัค")
